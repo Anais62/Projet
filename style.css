@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto; 
+}
+
+
+form {
+    max-width: 400px;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px; 
+}
+
+h1 {
+    text-align: center;
+    color: #4caf50;
+    margin-top: 0; 
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.formulaire {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#deconnexion {
+    background-color: red;
+    margin-top: 1rem;
+   
+}
+
+button.deco:hover,
+#deconnexion:hover {
+    background-color: darkred;
+    
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.check{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+
+#supprimer {
+    background-color: orangered;
+    margin-top: 3rem;
+
+}
+
+button.deco:hover,
+#supprimer:hover {
+    background-color: rgb(224, 134, 15);
+}
+
+form.form2 {
+    max-width: 16rem;
+    margin: -2rem;
+    padding: 87px;
+    padding-top: 0px;
+    margin-top: -20px; 
+}
+
+form.form3 {
+    max-width: 142px;
+    margin: -2rem;
+    padding: 87px;
+    padding-top: 0px;
+    margin-top: -20px;
+}
+
+#dejainscrit {
+    margin-top: 2rem;
+    background-color: orange;
+}
+
+#deja {
+    margin-top: 2rem;
+    background-color: orange;
+}
